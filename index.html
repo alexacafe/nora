@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Find Games With Nora</title>
+</head>
+<body>
+    <p id="box"></p>
+    <input type="radio">good</input>
+    <input type="radio">bad</input>
+<script>
+    var answer= prompt ("How are you today?");
+    if (answer=="good"){
+        
+        document.getElementById("box").innerHTML="Yay! :D";
+    }
+    else if (answer=="bad"){
+        document.getElementById("box").innerHTML="Aw :(";
+        
+    }
+    var answer= prompt ("Want to play some games?");
+    if (answer=="yes"){
+        
+        document.getElementById("box").innerHTML+="<br><a href='nora1-7%20.html'><img src= 'https://hackbrightacademy.com/content/uploads/2016/01/puppy-coding.jpg'> <br> Click the puppy to get satrted! </a>";
+    }
+    else if (answer=="no"){
+        document.getElementById("box").innerHTML="Aw :(";
+        
+    }
+</script>
+</body>
+</html>
